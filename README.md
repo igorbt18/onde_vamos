@@ -25,4 +25,4 @@ Este projeto foi desenvolvido a partir dos conteudos disponibilizados por DevClu
 
 ---
 
-**Link do Site:** [link aqui]
+**Link do Site:** (https://onde-vamos-drab.vercel.app/)
