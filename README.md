@@ -1,4 +1,4 @@
-# Website de Destinos de Viagem
+# Prototipo de um Website de Destinos de Viagem
 
 Este é um projeto de um website de destinos de viagem, onde os usuários podem explorar diversos lugares incríveis ao redor do mundo. O site apresenta uma interface interativa e atraente, com um carrossel de destinos que permite aos usuários navegar pelas imagens e informações dos lugares.
 
