@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Onde Vamos?</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./img/icon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -19,11 +20,11 @@
     </header>
     <main class="container">
         <div class="list">
-            <div class="list__item">
-                <img src="img/img1.jpg" alt="Imagem das Praias de Bali">
+            <div class="list__item" data-target="paris">
+                <img src="img/img1.jpg" alt="O grande arco de Paris" id="paris">
                 <div class="content">
                     <h2 class="title">Paris</h2>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores nobis repudiandae inventore obcaecati nam quisquam molestias repellendus voluptates iste aut dolorem excepturi, labore, est illo laborum. Repellendus porro placeat error.</p>
+                    <p class="description">Paris, a cidade do amor e da cultura, encanta com seus monumentos icônicos como a Torre Eiffel e a Notre-Dame, que contam histórias fascinantes. Seus charmosos cafés e bistrôs oferecem não apenas uma deliciosa culinária, mas também uma atmosfera acolhedora e cosmopolita. Cada rua é como uma obra de arte impressionista, cheia de surpresas. Paris é uma experiência que toca o coração e alimenta a alma.</p>
                     <div class="bottons">
                         <button>Acessar</button>
                         <button>Saiba Mais</button>
@@ -33,11 +34,11 @@
         
 
         
-            <div class="list__item">
-                <img src="img/img2.jpg" alt="O grande arco de Paris">
+            <div class="list__item" data-target="bali">
+                <img src="img/img2.jpg" alt="Imagem das Praias de Bali" id="bali">
                 <div class="content">
                     <h2 class="title">Bali</h2>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores nobis repudiandae inventore obcaecati nam quisquam molestias repellendus voluptates iste aut dolorem excepturi, labore, est illo laborum. Repellendus porro placeat error.</p>
+                    <p class="description">Bali, a pérola da Indonésia, encanta com suas praias paradisíacas e templos ancestrais. Sua cultura rica e vibrante se revela em danças tradicionais e culinária exótica. É mais do que uma ilha, é uma jornada de descoberta e renovação para a alma.</p>
                     <div class="bottons">
                         <button>Acessar</button>
                         <button>Saiba Mais</button>
@@ -46,11 +47,11 @@
             </div>
         
 
-            <div class="list__item">
-                <img src="img/img3.jpg" alt="O coliseu de Roma">
+            <div class="list__item" data-target="roma">
+                <img src="img/img3.jpg" alt="O coliseu de Roma" id="roma">
                 <div class="content">
                     <h2 class="title">Roma</h2>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores nobis repudiandae inventore obcaecati nam quisquam molestias repellendus voluptates iste aut dolorem excepturi, labore, est illo laborum. Repellendus porro placeat error.</p>
+                    <p class="description">Roma, a cidade eterna, é um verdadeiro tesouro que transcende o tempo. Seus monumentos ancestrais, como o majestoso Coliseu e o imponente Panteão, contam histórias épicas de glória e grandeza. Nas ruas de paralelepípedos, cada esquina revela uma nova maravilha arquitetônica ou um encantador café italiano, onde se pode saborear a autêntica culinária romana. Roma é uma sinfonia de arte, história e cultura, onde cada passo é uma viagem ao passado glorioso do Império Romano.</p>
                     <div class="bottons">
                         <button>Acessar</button>
                         <button>Saiba Mais</button>
@@ -58,11 +59,12 @@
                 </div>
             </div>
 
-            <div class="list__item">
-                <img src="img/img4.jpg" alt="Os canais de Veneza">
+            <div class="list__item" data-target="veneza">
+                <img src="img/img4.jpg" alt="Os canais de Veneza" id="veneza">
                 <div class="content">
                     <h2 class="title">Veneza</h2>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores nobis repudiandae inventore obcaecati nam quisquam molestias repellendus voluptates iste aut dolorem excepturi, labore, est illo laborum. Repellendus porro placeat error.</p>
+                    <p class="description">
+                        Veneza, cidade dos canais, é um encanto que parece saído de um conto de fadas. Navegar em gôndolas pelos canais sinuosos é como viver um sonho. As grandiosas construções à beira d'água, como o Palácio Ducal e a Basílica de São Marcos, contam histórias ricas de cultura e arte. Perder-se nas ruas estreitas revela segredos em cada esquina, enquanto os cafés convidam a apreciar a atmosfera única da cidade. Veneza é uma experiência mágica, que deixa lembranças inesquecíveis.</p>
                     <div class="bottons">
                         <button>Acessar</button>
                         <button>Saiba Mais</button>
@@ -72,32 +74,32 @@
         </div>
 
         <div class="thumb">
-            <div class="thumb__item">
-                <img src="img/img1.jpg" alt="Imagem das Praias de Bali">
+            <div class="thumb__item" data-target="paris">
+                <img src="img/img1.jpg" alt="O grande arco de Paris" id="paris">
                 <div class="content">
                     <h3>Paris</h3>
                     <p>Visite Paris</p>
                 </div>
             </div>
 
-            <div class="thumb__item">
-                <img src="img/img2.jpg" alt="O grande arco de Paris">
+            <div class="thumb__item" data-target="bali">
+                <img src="img/img2.jpg" alt="Imagem das Praias de Bali" id="bali">
                 <div class="content">
                     <h3>Bali</h3>
                     <p>Visite Bali</p>
                 </div>
             </div>
 
-            <div class="thumb__item">
-                <img src="img/img3.jpg" alt="O coliseu de Roma">
+            <div class="thumb__item" data-target="roma">
+                <img src="img/img3.jpg" alt="O coliseu de Roma" id="roma">
                 <div class="content">
                     <h3>Roma</h3>
                     <p>Visite Roma</p>
                 </div>
             </div>
 
-            <div class="thumb__item">
-                <img src="img/img4.jpg" alt="Os canais de Veneza">
+            <div class="thumb__item" data-target="veneza">
+                <img src="img/img4.jpg" alt="Os canais de Veneza" id="veneza">
                 <div class="content">
                     <h3>Veneza</h3>
                     <p>Visite Veneza</p>

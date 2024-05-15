@@ -48,6 +48,14 @@ body{
     height: 100%;
     filter: brightness(50%);
 }
+/*.list__item.active {
+    display: block; 
+}
+.list__item {
+    display: none; 
+} Pesquisar sobre como ativar os elementos só depois de a função ser utilizada*/
+
+
 
 .container .list .list__item .content{
     position: absolute;
@@ -119,6 +127,7 @@ body{
     height: 200px;
     position: relative;
     z-index: 3;
+    cursor: pointer;
 }
 
 .container .thumb .thumb__item img{
@@ -127,6 +136,11 @@ body{
     object-fit: cover;
     border-radius: 10px;
     filter: brightness(80%);
+}
+
+
+.container .thumb .thumb__item.active {
+    border: 2px solid #000; 
 }
 
 .container .thumb .content{
